@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux提权(escalate_linux_1靶机)
-tags: jekyll
+tags: 提权
 ---
 
 **[靶机地址](https://www.vulnhub.com/entry/escalate_linux-1,323)**

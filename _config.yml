@@ -30,8 +30,8 @@ social:
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 3047a0dacb55587bf148cb26b0abe5db  
+# baidu:
+#     id: 3047a0dacb55587bf148cb26b0abe5db  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
