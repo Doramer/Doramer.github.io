@@ -5,7 +5,7 @@ description: Doraemon Blog
 # 头像里面的标题
 avatarTitle: Doramer
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
+avatarDesc: 渗透测试 / 代码审计
 url: "https://doramer.github.io"
 
 # 博客是否自动生成目录，false为不生成
@@ -64,8 +64,6 @@ blog_button:
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 技术支持, description: support, url: '/support'}      
-    - {title: 关于我, description: about, url: '/about'}   
     
 
 # Pagination
