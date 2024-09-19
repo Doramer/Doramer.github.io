@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Commons-Collection CC5链7链
+title: Commons-Collection CC5链
 tags: Java
 ---
 
