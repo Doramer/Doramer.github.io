@@ -33,6 +33,8 @@ tags: Java
 
 再用`BadAttributeValueExpException`来调用`toString`
 
+![image-20240927203732634](\images\posts\东华杯ezgadgetJava反序列化\image-20240927203732634.png)
+
 这里是调用`toString`后将结果赋值给了val,然后`readObject`调用val的`toString`.所以这里随便传一个值在后面在反射修改回来
 
 ```Java
